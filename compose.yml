@@ -1,0 +1,6 @@
+services:
+    server:
+        image: ghcr.io/chimekkoo/iperf-docker:latest
+        build: .
+        ports:
+            - 5201:5201
